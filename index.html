@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uno Del 98' - Walter Lego</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background: radial-gradient(circle, #20a082 0%, #0d4d3e 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+        }
+        .artwork {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 5px; letter-spacing: 1px; }
+        h2 { font-size: 1.1rem; font-weight: 300; opacity: 0.8; margin-bottom: 30px; }
+        .links-container { display: flex; flex-direction: column; gap: 15px; }
+        .link-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .link-card:hover { background: rgba(255, 255, 255, 0.2); transform: scale(1.02); }
+        .platform-name { font-weight: bold; font-size: 1rem; }
+        .btn-play {
+            background: transparent;
+            border: 1px solid white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="release1del98.GIF" alt="Uno Del 98' Cover" class="artwork">
+        <h1>Uno Del 98'</h1>
+        <h2>Walter Lego</h2>
+        <div class="links-container">
+            <a href="https://open.spotify.com/intl-es/track/41xI4YkuWSzWEy8Vi6Bik6?si=07be72d3e3524cd7" class="link-card" target="_blank">
+                <span class="platform-name">Spotify</span>
+                <span class="btn-play">Escuchar</span>
+            </a>
+            <a href="https://music.youtube.com/watch?v=PudjYWnK2oU&si=UUNB2f2kOrhZ_Lg3" class="link-card" target="_blank">
+                <span class="platform-name">YouTube Music</span>
+                <span class="btn-play">Reproducir</span>
+            </a>
+            <a href="https://music.apple.com/es/song/uno-del-98/1875676325" class="link-card" target="_blank">
+                <span class="platform-name">Apple Music</span>
+                <span class="btn-play">Escuchar</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
